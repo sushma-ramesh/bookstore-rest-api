@@ -30,14 +30,14 @@ A Spring Boot-based RESTful API to manage books, customers, and orders. It inclu
 -------------------------------------------------------------
 
 ## 📂 Project Structure
-src/
-├── controller/
-├── service/
-│ └── impl/
-├── repository/
-├── model/
-├── exception/
-└── BookstoreApiApplication.java
+>    src/
+>  ├── controller/
+>  ├── service/
+>  ├── impl/
+>  ├── repository/
+>  ├── model/
+>  ├── exception/
+>  └── BookstoreApiApplication.java
 
 
 -----------------------------------------------------------------------
