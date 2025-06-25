@@ -61,10 +61,10 @@ A Spring Boot-based RESTful API to manage books, customers, and orders. It inclu
 
 # Configure MySQL and properties
 # application.properties
-  spring.datasource.url=jdbc:mysql://localhost:3306/bookstore
-  spring.datasource.username=root
-  spring.datasource.password=root1234
-  spring.jpa.hibernate.ddl-auto=update
+ - spring.datasource.url=jdbc:mysql://localhost:3306/bookstore
+ - spring.datasource.username=root
+ - spring.datasource.password=root1234
+ - spring.jpa.hibernate.ddl-auto=update
 
 # Run the application
    mvn spring-boot:run
